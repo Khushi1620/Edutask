@@ -1,0 +1,18 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+  background: linear-gradient(
+    to bottom right,
+    rgba(237, 233, 254, 0.8),
+    rgba(221, 214, 254, 0.8)
+  );
+  color: #111827;
+}
+#tasklist::-webkit-scrollbar {
+  display: none;
+}
